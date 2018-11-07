@@ -44,6 +44,7 @@ body{
 }
 #cart .cart-wrapper{
     padding: 75px 0;
+  
 }
 #cart .cart-wrapper .cart-heading{
     text-align: center;
@@ -71,8 +72,8 @@ body{
 #cart .cart-wrapper .cart-content{
     display: inline-flex;
     flex-flow: row wrap;
-    /* text-align: center; */
-    padding: 50px 0 10px 100px;
+    padding: 50px 0 0px 0px;
+    justify-content: space-around;
 }
 #cart .cart-wrapper .cart-content .cart-1{
     border-radius: 5px;
@@ -226,10 +227,17 @@ body{
     letter-spacing: 1px;
     font-size: 0.7rem;
 }
+@media all and (max-width:1024px){
+    #cart .cart-wrapper .cart-content .cart-1,.cart-2,.cart-3,.cart-4{
+        /* justify-content: center; */
+        flex-flow: row wrap;  
+        justify-content: space-around;
+    }
+}
 @media all and (max-width:800px){
     #cart .cart-wrapper .cart-content .cart-1,.cart-2,.cart-3,.cart-4{
         justify-content: center;
-        flex-flow: row wrap;       
+        flex-flow: row wrap;  
     }
 }
 @media all and (max-width:500px){
@@ -279,7 +287,7 @@ body{
         height:1rem;
         display: inline-flex;
         list-style-type:none;
-        
+
     }
 }
 @media all and (max-width:500px){
