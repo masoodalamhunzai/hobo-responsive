@@ -277,6 +277,8 @@ body{
     #footer  .footer-icons ul li img{
         width: 1rem;
         height:1rem;
+        display: inline-flex;
+        list-style-type:none;
     }
 }
 @media all and (max-width:500px){
@@ -287,5 +289,7 @@ body{
     #footer  .footer-icons ul li img{
         width: 1rem;
         height: 1rem;
+        list-style-type:none;
+        display: inline-flex;
     }
 }
