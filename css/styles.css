@@ -279,6 +279,7 @@ body{
         height:1rem;
         display: inline-flex;
         list-style-type:none;
+        
     }
 }
 @media all and (max-width:500px){
