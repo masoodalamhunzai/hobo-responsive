@@ -8,7 +8,8 @@ body{
     justify-content: space-between;   
 }
 #header .header-logo {
-    justify-content: flex-start;  
+    justify-content: flex-start; 
+    padding: 0.4rem; 
 }   
 #header .header-nav ul{
     justify-content: flex-end;  
