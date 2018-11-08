@@ -5,7 +5,6 @@ body{
 #header{
     display: flex;
     background-color:#d9230e;
-    /* background-color:#c51a08; */
     justify-content: space-between;   
 }
 #header .header-logo {
@@ -38,8 +37,7 @@ body{
 @media all and (max-width:500px){
     #header{
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column;      
     }
     #header .header-nav ul li{
         display: flex;
@@ -50,7 +48,6 @@ body{
     }
 }
 #cart{
-    
     display: flex;
     justify-content: space-around;
     background-color: #f1f1f1;
@@ -64,18 +61,18 @@ body{
 #cart .cart-wrapper .cart-heading{
     text-align: center;
 }
-#cart .cart-wrapper .cart-heading h2{
-    
+#cart .cart-wrapper .cart-heading h2{ 
     color: #454545;
     font-weight: 900; 
     font-size: 2rem;
     text-transform: uppercase;
 }
 #cart .cart-wrapper .cart-para{
-    /* display: flex; */
+    display: flex;
     justify-content: center;
 }
 #cart .cart-wrapper .cart-para p{
+    flex-basis: 30rem;
     padding: 15px 0 0 0;
     text-align: center;
     color: #454545;
@@ -86,29 +83,48 @@ body{
 #cart .cart-wrapper .cart-content{
     display: inline-flex;
     flex-flow: row wrap;
+    /* display: flex;  */
     padding: 50px 0 0px 0px;
-    justify-content: center;
+    justify-content:center;
 }
 #cart .cart-wrapper .cart-content .cart-1{
+    flex-basis: 10rem;
+    flex-flow: column;
     border-radius: 5px;
-    background-color: #ffffff;
+    background-color: #ffffff; 
 }
 #cart .cart-wrapper .cart-content .cart-1 .cart1-name{
     padding: 10px 0 0px 15px;
+    text-align: center;
 }
 #cart .cart-wrapper .cart-content .cart-1 .cart1-name h2{
     color: #454545;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 #cart .cart-wrapper .cart-content .cart-1 .cart1-address{
     padding: 0px 0 0px 15px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+#cart .cart-wrapper .cart-content .cart-1 .cart1-address h3{
+    color: #8d8787;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    margin: 0;
 }
 #cart .cart-wrapper .cart-content .cart-1 .cart1-address p{
     color: #8d8787;
     letter-spacing: 1px;
     font-size: 0.9rem;
+    text-align: center;
+    line-height: 1.3rem;
+    word-spacing: 0.5rem;
+    padding: 0.5rem;
 }
 #cart .cart-wrapper .cart-content .cart-1 .status-button1{
+    display: flex;
+    justify-content: center;
     padding: 0px 0 15px 15px;
 }
 #cart .cart-wrapper .cart-content .cart-1 .status-button1 button{
@@ -122,25 +138,43 @@ body{
     font-size: 0.7rem;
 }
 #cart .cart-wrapper .cart-content .cart-2{
+    flex-basis: 10rem;
+    flex-flow: column;
     border-radius: 5px;
-    background-color: #ffffff;
+    background-color: #ffffff; 
 }
 #cart .cart-wrapper .cart-content .cart-2 .cart2-name{
     padding: 10px 0 0px 15px;
+    text-align: center;
 }
 #cart .cart-wrapper .cart-content .cart-2 .cart2-name h2{
     color: #454545;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 #cart .cart-wrapper .cart-content .cart-2 .cart2-address{
     padding: 0px 0 0px 15px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+#cart .cart-wrapper .cart-content .cart-2 .cart2-address h3{
+    color: #8d8787;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    margin: 0;
 }
 #cart .cart-wrapper .cart-content .cart-2 .cart2-address p{
     color: #8d8787;
     letter-spacing: 1px;
     font-size: 0.9rem;
+    text-align: center;
+    line-height: 1.3rem;
+    word-spacing: 0.5rem;
+    padding: 0.5rem;
 }
 #cart .cart-wrapper .cart-content .cart-2 .status-button2{
+    display: flex;
+    justify-content: center;
     padding: 0px 0 15px 15px;
 }
 #cart .cart-wrapper .cart-content .cart-2 .status-button2 button{
@@ -154,25 +188,43 @@ body{
     font-size: 0.7rem;
 }
 #cart .cart-wrapper .cart-content .cart-3{
+    flex-basis: 10rem;
+    flex-flow: column;
     border-radius: 5px;
-    background-color: #ffffff;
+    background-color: #ffffff; 
 }
 #cart .cart-wrapper .cart-content .cart-3 .cart3-name{
     padding: 10px 0 0px 15px;
+    text-align: center;
 }
 #cart .cart-wrapper .cart-content .cart-3 .cart3-name h2{
     color: #454545;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 #cart .cart-wrapper .cart-content .cart-3 .cart3-address{
     padding: 0px 0 0px 15px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+#cart .cart-wrapper .cart-content .cart-3 .cart3-address h3{
+    color: #8d8787;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    margin: 0;
 }
 #cart .cart-wrapper .cart-content .cart-3 .cart3-address p{
     color: #8d8787;
     letter-spacing: 1px;
     font-size: 0.9rem;
+    text-align: center;
+    line-height: 1.3rem;
+    word-spacing: 0.5rem;
+    padding: 0.5rem;
 }
 #cart .cart-wrapper .cart-content .cart-3 .status-button3{
+    display: flex;
+    justify-content: center;
     padding: 0px 0 15px 15px;
 }
 #cart .cart-wrapper .cart-content .cart-3 .status-button3 button{
@@ -186,25 +238,43 @@ body{
     font-size: 0.7rem;
 }
 #cart .cart-wrapper .cart-content .cart-4{
+    flex-basis: 10rem;
+    flex-flow: column;
     border-radius: 5px;
-    background-color: #ffffff;
+    background-color: #ffffff; 
 }
 #cart .cart-wrapper .cart-content .cart-4 .cart4-name{
     padding: 10px 0 0px 15px;
+    text-align: center;
 }
 #cart .cart-wrapper .cart-content .cart-4 .cart4-name h2{
     color: #454545;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 #cart .cart-wrapper .cart-content .cart-4 .cart4-address{
     padding: 0px 0 0px 15px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+#cart .cart-wrapper .cart-content .cart-4 .cart4-address h3{
+    color: #8d8787;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    margin: 0;
 }
 #cart .cart-wrapper .cart-content .cart-4 .cart4-address p{
     color: #8d8787;
     letter-spacing: 1px;
     font-size: 0.9rem;
+    text-align: center;
+    line-height: 1.3rem;
+    word-spacing: 0.5rem;
+    padding: 0.5rem;
 }
 #cart .cart-wrapper .cart-content .cart-4 .status-button4{
+    display: flex;
+    justify-content: center;
     padding: 0px 0 15px 15px;
 }
 #cart .cart-wrapper .cart-content .cart-4 .status-button4 button{
@@ -226,7 +296,7 @@ body{
     #cart .cart-wrapper .cart-content .cart-1,.cart-2,.cart-3,.cart-4{
         flex-flow: row wrap;  
         justify-content: space-around;
-        margin: 2rem 4rem;
+        margin: 3rem 4rem;
     }
 }
 @media all and (max-width:800px){
@@ -254,6 +324,7 @@ body{
 }
 #footer  .footer-icons{
    justify-content: flex-start;
+   line-height: 1rem;
   
 }
 #footer  .footer-icons ul{
